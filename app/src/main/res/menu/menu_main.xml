@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    tool:context=".MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/action_create_order"
+        android:title="@string/create_order"
+        android:icon="@mipmap/ic_action_new_event"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        tool:ignore="AppCompatResource"/>
+
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider"/>
+
+
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        tool:ignore="AppCompatResource">
+
+    </item>
+
+</menu>
